@@ -1,19 +1,97 @@
+```gitignore
+# ==========================================
+# JARVIS AI Assistant - Git Ignore
+# ==========================================
+
+# ------------------------------
+# Environment variables / Secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# Python cache files
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
 env/
 env1/
 env313/
 venv/
 .venv/
 
-__pycache__/
-*.py[cod]
-
-.env
-.env.*
-secrets.py
-
-temp.mp3
-temp_jarvis.mp3
-
+# ------------------------------
+# VS Code
+# ------------------------------
 .vscode/
+*.code-workspace
+
+# ------------------------------
+# Python build / packaging
+# ------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------
+# Test / coverage files
+# ------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Temporary files
+# ------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ------------------------------
+# Jupyter Notebook
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# OS generated files
+# ------------------------------
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ------------------------------
+# Python tools
+# ------------------------------
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# ------------------------------
+# Local project data
+# ------------------------------
+*.sqlite
+*.sqlite3
+
+# ------------------------------
+# IDE / editor files
+# ------------------------------
+.idea/
+*.iml
+```
