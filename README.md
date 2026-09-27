@@ -791,9 +791,11 @@ If you want to contribute:
 
 # 📜 License
 
-Add your preferred open-source license before publishing the project publicly.
+This project is licensed under the MIT License.
 
-For example, you can use the MIT License if you want a permissive open-source license.
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, subject to the conditions of the MIT License.
+
+See the LICENSE file for the full license text.
 
 ---
 
