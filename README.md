@@ -1,4 +1,4 @@
-# 🤖 JARVIS — AI Voice Assistant
+#  JARVIS — AI Voice Assistant
 
 JARVIS is a Python-based AI voice assistant that allows users to interact with an AI system using voice commands.
 
@@ -8,9 +8,9 @@ The project is being developed as a hands-on AI engineering project to learn Pyt
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🎙️ Voice Recognition
+###  Voice Recognition
 
 JARVIS listens for the wake word:
 
@@ -24,7 +24,7 @@ It uses the `SpeechRecognition` library with Google's speech-recognition service
 
 ---
 
-## 🧠 AI Assistant
+##  AI Assistant
 
 JARVIS uses the **Groq API** to answer general questions.
 
@@ -54,7 +54,7 @@ The AI system also includes error handling for missing API keys and failed Groq 
 
 ---
 
-## 🔊 Text-to-Speech
+##  Text-to-Speech
 
 JARVIS supports multiple speech systems.
 
@@ -74,7 +74,7 @@ This gives the assistant a fallback mechanism when one speech system is unavaila
 
 ---
 
-## 🌤️ Weather
+##  Weather
 
 JARVIS can retrieve current weather information using **wttr.in**.
 
@@ -103,7 +103,7 @@ The current implementation uses Lahore as the default weather location.
 
 ---
 
-## 📰 News
+##  News
 
 JARVIS can retrieve the latest top headlines using **NewsAPI**.
 
@@ -127,7 +127,7 @@ A valid `NEWS_API_KEY` is required.
 
 ---
 
-## 🌐 Web Search
+##  Web Search
 
 JARVIS can open Google searches for current or live information.
 
@@ -147,7 +147,7 @@ JARVIS does not ask the Groq model to perform browser tool calls. Instead, curre
 
 ---
 
-## 🔎 Google Search
+##  Google Search
 
 JARVIS can open Google searches.
 
@@ -163,7 +163,7 @@ Jarvis search for AI engineering roadmap
 
 ---
 
-## ▶️ YouTube Search
+##  YouTube Search
 
 JARVIS can search YouTube.
 
@@ -177,7 +177,7 @@ It opens the YouTube search results in the default browser.
 
 ---
 
-## 🎵 Music Playback
+##  Music Playback
 
 JARVIS can search for music on YouTube using `pywhatkit`.
 
@@ -199,7 +199,7 @@ If `pywhatkit` cannot play the requested song directly, JARVIS falls back to ope
 
 ---
 
-## 🌐 Website Automation
+##  Website Automation
 
 JARVIS can open several commonly used websites.
 
@@ -234,7 +234,7 @@ Jarvis open Gmail
 
 ---
 
-## 🕐 Time and Date
+##  Time and Date
 
 JARVIS can tell the current local time.
 
@@ -256,7 +256,7 @@ The time and date are obtained directly from the computer using Python's `dateti
 
 ---
 
-## 😂 Joke
+##  Joke
 
 JARVIS includes a simple built-in programming joke.
 
@@ -268,7 +268,7 @@ Jarvis tell me a joke
 
 ---
 
-## ❓ Help
+##  Help
 
 JARVIS has a built-in help command.
 
@@ -282,7 +282,7 @@ The available commands are displayed in the terminal and summarized through spee
 
 ---
 
-## 🛑 Shutdown
+##  Shutdown
 
 JARVIS can be stopped using commands such as:
 
@@ -310,7 +310,7 @@ It also handles `Ctrl+C` gracefully.
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 | Technology                | Purpose                         |
 | ------------------------- | ------------------------------- |
@@ -330,7 +330,7 @@ It also handles `Ctrl+C` gracefully.
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 Mega Project 01 JARVIS/
@@ -349,7 +349,7 @@ The `env313` virtual environment should **not** be uploaded to GitHub.
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## 1. Clone the Repository
 
@@ -401,7 +401,7 @@ in the terminal.
 
 ---
 
-# 📦 Install Dependencies
+#  Install Dependencies
 
 Install the project dependencies using:
 
@@ -411,7 +411,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 API Configuration
+#  API Configuration
 
 JARVIS requires API keys for some features.
 
@@ -444,7 +444,7 @@ The weather feature currently uses wttr.in and does not require another API key.
 
 ---
 
-# 🔐 Security
+#  Security
 
 **Never upload your `.env` file to GitHub.**
 
@@ -473,7 +473,7 @@ If an API key is accidentally committed to a public GitHub repository, revoke or
 
 ---
 
-# ▶️ Run JARVIS
+#  Run JARVIS
 
 Activate your virtual environment and run:
 
@@ -493,7 +493,7 @@ JARVIS will:
 
 ---
 
-# 🎤 Example Commands
+#  Example Commands
 
 ## AI
 
@@ -585,7 +585,7 @@ Jarvis goodbye
 
 ---
 
-# 🧩 Error Handling
+#  Error Handling
 
 JARVIS includes error handling for several common situations:
 
@@ -605,7 +605,7 @@ The application attempts to continue running when possible rather than immediate
 
 ---
 
-# 🏗️ Current Architecture
+#  Current Architecture
 
 The current application follows a simple command-processing architecture:
 
@@ -649,20 +649,20 @@ The current application follows a simple command-processing architecture:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 The current version provides the core JARVIS voice-assistant functionality.
 
 Planned improvements include:
 
-### 🧠 Memory
+###  Memory
 
 * Conversation history
 * Persistent memory
 * User preferences
 * Context-aware conversations
 
-### 🤖 Better AI Architecture
+###  Better AI Architecture
 
 * Intent classification
 * Dedicated tool/function routing
@@ -670,7 +670,7 @@ Planned improvements include:
 * Multi-step AI tasks
 * Structured tool calling
 
-### 💻 Computer Automation
+###  Computer Automation
 
 * Open desktop applications
 * Control files and folders
@@ -678,14 +678,14 @@ Planned improvements include:
 * Mouse automation
 * System controls
 
-### 👁️ Computer Vision
+###  Computer Vision
 
 * Camera integration
 * Image understanding
 * Screen understanding
 * Object detection
 
-### 📚 Document Intelligence
+###  Document Intelligence
 
 * PDF understanding
 * Document search
@@ -693,21 +693,21 @@ Planned improvements include:
 * Vector databases
 * Personal knowledge base
 
-### 📧 Productivity
+###  Productivity
 
 * Email integration
 * Calendar integration
 * Task management
 * Reminders
 
-### 🖥️ User Interface
+###  User Interface
 
 * Graphical user interface
 * Animated JARVIS interface
 * Conversation history
 * System status dashboard
 
-### 🔐 Security
+###  Security
 
 * User authentication
 * Permission management
@@ -716,7 +716,7 @@ Planned improvements include:
 
 ---
 
-# 🎯 Learning Objectives
+#  Learning Objectives
 
 This project is designed to develop practical experience in:
 
@@ -737,7 +737,7 @@ This project is designed to develop practical experience in:
 
 ---
 
-# 📈 Project Development
+#  Project Development
 
 JARVIS is being developed incrementally.
 
@@ -767,9 +767,9 @@ Advanced AI Assistant
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
-**Enginner Muzammil**
+**Muhammad Muzammal Hussain**
 
 This project is part of my hands-on journey toward becoming an **AI Engineer**.
 
